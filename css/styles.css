@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap");
+
+/* RESETS */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* VARIABLES */
+:root {
+  --ff-sans: "Nunito", sans-serif;
+  --color-white: #f9faf8;
+  --color-primary: #1f2937;
+  --color-btn-bg: #3882f6;
+}
+
+/* DEFAULTS */
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--ff-sans);
+  font-size: inherit;
+}
+
+.btn {
+  background-color: var(--color-btn-bg);
+  color: var(--color-white);
+  padding: 0.875rem 1.6rem;
+  display: inline-block;
+  font-family: inherit;
+  font-size: 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* ----------------------
+      HEADER SECTION
+---------------------- */
+header {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 7rem;
+}
+
+header .logo {
+  font-size: 2.4rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+.nav-link {
+  list-style: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* ----------------------
+      MAIN CONTAINER SECTION
+---------------------- */
+main {
+  /* max-width: 85%; */
+  margin: 0 auto;
+}
+
+/* ----------------------
+      HEADER SECTION
+---------------------- */
+.hero {
+  padding: 7rem;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+.hero-info h2 {
+  font-size: 4.8rem;
+  line-height: 1.2;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.hero-info p {
+  font-size: 1.8rem;
+  line-height: 1;
+  margin-bottom: 2rem;
+}
+
+.hero-image-container {
+  width: 100%;
+  height: 300px;
+}
+
+.hero-img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
