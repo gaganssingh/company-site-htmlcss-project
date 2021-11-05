@@ -5,8 +5,130 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Company Website</title>
+    <!-- FONT AWESOME IMPORT -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- CUSTOM CSS IMPORT -->
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <h1>Company Website</h1>
+    <!-- ------------------------
+              HEADER SECTION
+    ------------------------ -->
+    <header>
+      <!-- LOGO -->
+      <h1 class="logo">Company</h1>
+      <!-- NAVIGATION -->
+      <nav>
+        <ul class="nav-links">
+          <li class="nav-link">Link One</li>
+          <li class="nav-link">Link Two</li>
+          <li class="nav-link">Link Three</li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- ------------------------
+              MAIN BODY SECTION
+    ------------------------ -->
+    <main>
+      <!-- *************************
+              HEADER SECTION
+      ************************* -->
+      <section class="hero">
+        <!-- HERO INFO -->
+        <div class="hero-info">
+          <h2>This website is awesome</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+            iste reiciendis porro molestias quos commodi.
+          </p>
+          <a href="#" class="btn signup-btn">Sign Up</a>
+        </div>
+        <!-- HERO IMAGE -->
+        <div class="hero-image-container">
+          <img
+            src="./assets/images/hero-img.jpeg"
+            alt="Hero Image"
+            class="hero-img"
+          />
+        </div>
+      </section>
+
+      <!-- *************************
+              INFO SECTION
+      ************************* -->
+      <section class="information">
+        <!-- INFO TITLE -->
+        <h3>Some random information</h3>
+        <!-- INFO ITEMS -->
+        <div class="info-items">
+          <!-- INFO ITEM 1 -->
+          <div class="info-item">
+            <i class="fab fa-canadian-maple-leaf"></i>
+            <p>Made with Love in Canada</p>
+          </div>
+          <!-- INFO ITEM 2 -->
+          <div class="info-item">
+            <i class="fas fa-praying-hands"></i>
+            <p>Extremely reliability</p>
+          </div>
+          <!-- INFO ITEM 3 -->
+          <div class="info-item">
+            <i class="fas fa-brain"></i>
+            <p>Smarter than the rest</p>
+          </div>
+          <!-- INFO ITEM 4 -->
+          <div class="info-item">
+            <i class="fab fa-accessible-icon"></i>
+            <p>Fully accessible to everyone</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- *************************
+              TESTIMONIAL SECTION
+      ************************* -->
+      <section class="testimonial">
+        <p class="testimonial-text">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat
+          sapiente dolores provident molestias error necessitatibus incidunt
+          veritatis ab excepturi tempore, assumenda ex iste labore esse
+          exercitationem ut. Soluta, a velit.
+        </p>
+        <p class="testiminial-author">-Peter, Web Slinger</p>
+      </section>
+
+      <!-- *************************
+              CTA SECTION
+      ************************* -->
+      <section class="cta">
+        <div class="cta-content">
+          <div class="cta-info">
+            <h4>Sign up now!</h4>
+            <p>
+              And get limited time discount of 15%! Only available for the next
+              48 hours.
+            </p>
+          </div>
+          <a href="#" class="btn signup-btn">Sign Up</a>
+        </div>
+      </section>
+    </main>
+
+    <!-- ------------------------
+              FOOTER SECTION
+    ------------------------ -->
+    <footer>
+      <p>Copyright &copy; The Company Inc <span class="year"></span></p>
+    </footer>
+
+    <!-- CUSTOM JAVASCRIP IMPORT -->
+    <script src="js/script.js"></script>
   </body>
 </html>
