@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700;800&display=swap");
 
 /* RESETS */
 *,
@@ -14,6 +14,7 @@
   --ff-sans: "Nunito", sans-serif;
   --color-white: #f9faf8;
   --color-primary: #1f2937;
+  --color-grey: #e5e7eb;
   --color-btn-bg: #3882f6;
 }
 
@@ -107,4 +108,77 @@ main {
   object-fit: cover;
   width: 100%;
   height: 100%;
+}
+
+/* ----------------------
+      INFO SECTION
+---------------------- */
+
+/* ----------------------
+      TESTIMONIAL SECTION
+---------------------- */
+.testimonial {
+  background-color: var(--color-grey);
+  padding: 9rem 16rem;
+  color: var(--color-primary);
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonial-text {
+  font-size: 3.6rem;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.testiminial-author {
+  font-size: 1.8rem;
+  font-weight: 700;
+  align-self: end;
+}
+
+/* ----------------------
+      CTA SECTION
+---------------------- */
+.cta {
+  padding: 7rem;
+}
+
+.cta-content {
+  padding: 3rem 7rem;
+  background-color: var(--color-btn-bg);
+  border-radius: 1rem;
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cta-info h4 {
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+}
+
+.cta-info p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  /* letter-spacing: 0.1rem; */
+}
+
+.cta-btn {
+  border: 3px solid var(--color-white);
+}
+
+/* ----------------------
+      FOOTER SECTION
+---------------------- */
+footer {
+  background-color: var(--color-primary);
+}
+
+footer p {
+  color: var(--color-white);
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 3rem 0;
 }
